@@ -20,8 +20,9 @@ print('----------------------------------------')
 # print(current_directory)
 print('----------------------------------------')
 current_file1 = path.abspath(__file__)
+print(current_file1)
 current_directory1 = path.dirname(current_file1)
-# print(current_directory1)
+print(current_directory1)
 
 
 parser_dir = path.join(current_directory1, 'file_parser')
